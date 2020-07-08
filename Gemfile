@@ -13,7 +13,7 @@ group :assets do
 	gem 'coffee-rails', '4.0.1'
 end
 
-gem 'jquery-rails' , '3.1.2'
+gem 'jquery-rails' , '3.1.3'
 
 gem 'turbolinks', '2.4.0'
 
