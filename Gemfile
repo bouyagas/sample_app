@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-gem 'rails', '4.0.0'
+gem 'rails', '6.1.7.3'
 
 group :development do 
 	gem 'sqlite3', '1.3.9'
@@ -8,17 +8,17 @@ group :development do
 end
 
 group :assets do
-	gem 'sass-rails', '4.0.3'
-	gem 'uglifier', '2.5.3'
-	gem 'coffee-rails', '4.0.1'
+	gem 'sass-rails', '6.0.0'
+	gem 'uglifier', '2.7.2'
+	gem 'coffee-rails', '4.2.2'
 end
 
-gem 'jquery-rails' , '3.1.2'
+gem 'jquery-rails' , '4.4.0'
 
-gem 'turbolinks', '2.4.0'
+gem 'turbolinks', '5.0.0'
 
 
-gem 'jbuilder', '2.2.1'
+gem 'jbuilder', '2.6.4'
 
 group :test do 
 	gem 'capybara', '2.4.3'
@@ -31,7 +31,7 @@ end
 
 group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.
-  gem 'sdoc', require: false
+  gem 'sdoc', '>= 1.0.0', require: false
 end
 
 # Use ActiveModel has_secure_password
