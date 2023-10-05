@@ -1,21 +1,21 @@
 source 'https://rubygems.org'
 
-gem 'rails', '4.0.0'
+gem 'rails', '7.1.0'
 
 group :development do 
 	gem 'sqlite3', '1.3.9'
-	gem 'rspec-rails', '3.1.0'
+	gem 'rspec-rails', '3.5.0'
 end
 
 group :assets do
-	gem 'sass-rails', '4.0.3'
+	gem 'sass-rails', '5.0.8'
 	gem 'uglifier', '2.5.3'
-	gem 'coffee-rails', '4.0.1'
+	gem 'coffee-rails', '4.2.2'
 end
 
-gem 'jquery-rails' , '3.1.2'
+gem 'jquery-rails' , '4.0.1'
 
-gem 'turbolinks', '2.4.0'
+gem 'turbolinks', '2.5.0'
 
 
 gem 'jbuilder', '2.2.1'
