@@ -21,7 +21,7 @@ gem 'turbolinks', '2.4.0'
 gem 'jbuilder', '2.2.1'
 
 group :test do 
-	gem 'capybara', '2.4.3'
+	gem 'capybara', '2.4.4'
 end 
 
 group :production do 
