@@ -4,7 +4,7 @@ gem 'rails', '4.0.0'
 
 group :development do 
 	gem 'sqlite3', '1.3.9'
-	gem 'rspec-rails', '3.1.0'
+	gem 'rspec-rails', '8.0.0'
 end
 
 group :assets do
